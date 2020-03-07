@@ -1,0 +1,2 @@
+### github api - get user info
+GET https://api.github.com/users/afeiship

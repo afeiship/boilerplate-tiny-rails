@@ -1,0 +1,17 @@
+{
+  "name": "@feizheng/boilerplate-tiny-rails",
+  "version": "1.0.0",
+  "description": "boilerplate-tiny-rails-description",
+  "homepage": "https://github.com/afeiship/boilerplate-tiny-rails",
+  "author": {
+    "name": "afeiship",
+    "email": "1290657123@qq.com"
+  },
+  "scripts": {
+    "start": "ruby src/app.rb"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
