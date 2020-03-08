@@ -12,4 +12,8 @@ require_relative "models/template"
 ActiveRecord::Base.establish_connection(
   adapter: "sqlite3",
   database: "db/template.sqlite3",
+  pool: 10,
 )
+
+# basic app constants
+APP_ROOT = File.expand_path(".")
