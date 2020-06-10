@@ -10,4 +10,4 @@ require_relative "../src/initialize"
 
 # Template.create(ip: "127.0.0.1", port: "9090")
 
-p Template.all.size
+p BoilerplateDbName.all.size

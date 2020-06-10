@@ -6,12 +6,12 @@ include Nx
 
 # init models
 require_relative "models/application_record"
-require_relative "models/template"
+require_relative "models/boilerplate_db_name"
 
 # init db
 ActiveRecord::Base.establish_connection(
   adapter: "sqlite3",
-  database: "db/template.sqlite3",
+  database: "db/boilerplate_db_name.sqlite3",
   pool: 10,
 )
 

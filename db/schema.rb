@@ -3,7 +3,7 @@ require "active_record"
 require_relative "../src/initialize"
 
 ActiveRecord::Schema.define do
-  create_table :templates, force: :cascade do |t|
+  create_table :boilerplate_db_names, force: :cascade do |t|
     t.string :name
     t.string :url
     t.string :grade
