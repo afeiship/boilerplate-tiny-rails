@@ -6,12 +6,8 @@
 require_relative "./initialize"
 
 class App
-  def initialize
-    puts "hello"
-  end
-
   def start
-    puts "app~"
+    puts "hello tiny rails!"
   end
 end
 
