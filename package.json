@@ -8,6 +8,9 @@
     "email": "1290657123@qq.com"
   },
   "scripts": {
+    "db:setup": "rake db:setup",
+    "db:migrate": "rake db:migrate",
+    "db:seed": "rake db:seed",
     "start": "ruby src/app.rb"
   },
   "license": "MIT",
