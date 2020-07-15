@@ -18,8 +18,10 @@
 # end
 
 # Learn more: http://github.com/javan/whenever
-# PROJECT_PATH = "/Users/feizheng/github/boilerplate-tiny-rails"
-# set :output, "#{PROJECT_PATH}/log/access.log"
+APP_PATH = File.expand_path("../../", __FILE__)
+LOG_DIR = "#{APP_PATH}/log"
+
+set :output, "#{LOG_DIR}/cron.log"
 
 # every 2.days do
 #   command "cd #{PROJECT_PATH} && ruby src/app.rb"
