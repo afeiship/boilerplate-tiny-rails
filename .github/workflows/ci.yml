@@ -1,0 +1,10 @@
+name: boilerplate-tiny-rails
+
+on:
+  push:
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hello
