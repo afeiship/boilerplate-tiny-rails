@@ -8,6 +8,8 @@
 
 require_relative "../src/initialize"
 
-# Template.create(ip: "127.0.0.1", port: "9090")
+grabbed = BoilerplateDbName.where(grabbed: true).size
+total = BoilerplateDbName.count
 
-p BoilerplateDbName.all.size
+rate = (grabbed * 100 / total).to_s + "%"
+puts rate
