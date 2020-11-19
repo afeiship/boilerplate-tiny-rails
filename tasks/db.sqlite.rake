@@ -8,7 +8,7 @@ namespace :db do
 
   desc "Setup database."
   task :setup do
-    system "cp db/backup.sqlite3.default db/boilerplate_db_name.sqlite3"
+    system "cp db/backup.sqlite3.default db/boilerplate_db_name.sqlite"
     ruby "db/schema.rb"
   end
 
