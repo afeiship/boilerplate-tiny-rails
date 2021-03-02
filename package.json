@@ -1,5 +1,5 @@
 {
-  "name": "@feizheng/boilerplate-tiny-rails",
+  "name": "@boilerplate-scope/boilerplate-tiny-rails",
   "version": "1.0.0",
   "description": "boilerplate-tiny-rails-description",
   "homepage": "https://github.com/afeiship/boilerplate-tiny-rails",
@@ -15,6 +15,7 @@
   },
   "license": "MIT",
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   }
 }
