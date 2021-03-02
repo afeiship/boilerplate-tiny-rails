@@ -9,7 +9,7 @@ class App
   def start
     # SpiderPage.start
     records = Page.where(grabbed: false)
-    size = records / 50
+    size = records.size / 50
     threads = records.each_slice(size).map do |items|
       Thread.new do
         items.each do |item|
