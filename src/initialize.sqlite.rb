@@ -7,11 +7,11 @@ require "nokogiri"
 
 include Nx
 
-# init models
-require_relative "models/application_record"
-require_relative "models/url"
-require_relative "models/page"
-require_relative "models/post"
+# init entities
+require_relative "entities/application_record"
+require_relative "entities/url"
+require_relative "entities/page"
+require_relative "entities/post"
 require_relative "spiders/spider_page"
 require_relative "spiders/spider_url"
 require_relative "spiders/spider_post"
