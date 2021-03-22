@@ -4,17 +4,14 @@ require "nx"
 require "nx-date-time"
 require "open-uri"
 require "nokogiri"
+require "require_all"
 
 include Nx
 
 # init entities
 require_relative "entities/application_record"
-require_relative "entities/url"
-require_relative "entities/page"
-require_relative "entities/post"
-require_relative "spiders/spider_page"
-require_relative "spiders/spider_url"
-require_relative "spiders/spider_post"
+require_rel "./entities/*.rb"
+require_rel "./spiders/*.rb"
 
 # expect time_zone: Asia/Shanghai
 ActiveRecord::Base.default_timezone = :local
