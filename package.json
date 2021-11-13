@@ -18,9 +18,9 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "boilerplate": "@boilerplate-scope/boilerplate-tiny-rails",
+  "boilerplate": "boilerplate-tiny-rails",
   "repository": {
     "type": "git",
-    "url": "https://github.com/afeiship/@boilerplate-scope/boilerplate-tiny-rails"
+    "url": "https://github.com/afeiship/boilerplate-tiny-rails.git"
   }
 }
