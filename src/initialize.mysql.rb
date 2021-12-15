@@ -24,7 +24,7 @@ ActiveRecord::Base.establish_connection(
   password: "",
   database: "boilerplate_db_name",
   pool: 100,
-  encoding: 'utf8mb4'
+  encoding: 'utf8mb4',
   collation: 'utf8mb4_general_ci'
 )
 
