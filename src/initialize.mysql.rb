@@ -10,6 +10,7 @@ include Nx
 
 # init entities
 require_relative "entities/application_record"
+require_rel "./helpers/*.rb"
 require_rel "./entities/*.rb"
 require_rel "./spiders/*.rb"
 
